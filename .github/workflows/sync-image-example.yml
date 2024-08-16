@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/cockroachdb/cockroach:v22.2.19 docker://registry.cn-hangzhou.aliyuncs.com/wjfdocker/cockroach:v22.2.19
+        skopeo copy docker://docker.io/datacatering/maestro:0.1.0 docker://registry.cn-hangzhou.aliyuncs.com/wjfdocker/maestro:0.1.0
