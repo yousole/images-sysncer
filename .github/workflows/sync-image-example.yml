@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/datacatering/maestro:0.1.0 docker://registry.cn-hangzhou.aliyuncs.com/wjfdocker/maestro:0.1.0
+        skopeo copy docker://docker.io/collabora/code:latest docker://registry.cn-hangzhou.aliyuncs.com/wjfdocker/code:latest
